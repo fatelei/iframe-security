@@ -1,0 +1,23 @@
+{
+  "name": "iframe-security",
+  "version": "1.0.0",
+  "description": "iframe security experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatelei/iframe-security.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatelei/iframe-security/issues"
+  },
+  "homepage": "https://github.com/fatelei/iframe-security#readme",
+  "dependencies": {
+    "express": "4.15.4",
+    "pug": "^2.0.0-rc.3"
+  }
+}
