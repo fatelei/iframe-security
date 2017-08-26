@@ -1,3 +1,3 @@
 let referrer = document.referrer
-console.log(`referrer is ${referrer}`)
-
+let text = document.createTextNode(`referrer is ${referrer}`)
+document.body.appendChild(text)

@@ -7,7 +7,7 @@ app.use('/static', express.static(path.join(__dirname, 'static')))
 app.set('view engine', 'pug')
 
 app.use('/', (req, res) => {
-    res.render('index', {title: 'a', message: 'hello word'})
+    res.render('index', {title: 'b', message: 'Display referrer below'})
 })
 
-app.listen(3002, '0.0.0.0')
+app.listen(80, '0.0.0.0')

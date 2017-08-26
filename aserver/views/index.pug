@@ -3,4 +3,14 @@ html
     title= title
   body
     h1= message
-    iframe(src='https://v.vzuu.com/video/884432052949229568' width=1000 referrerpolicy='unsafe-url')
+    ul
+      li
+        a(href='http://localhost:3001/a') no-referrer-policy
+      li
+        a(href='http://localhost:3001/b') origin-policy
+      li
+        a(href='http://localhost:3001/c') origin-when-cross-origin-policy
+      li
+        a(href='http://localhost:3001/d') unsafe-url-policy
+      li
+        a(href='http://localhost:3001/e') no-referrer-when-downgrade-policy
